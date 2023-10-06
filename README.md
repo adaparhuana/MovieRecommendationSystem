@@ -95,7 +95,7 @@ Se realizaron 4 funciones en python para la realizar las consultas asignadas. Si
 
 4. Actor que más se repite según plataforma y año. (La función debe llamarse get_actor (platform, year)).
 
-[Ir a la API](https://xxxx)
+[Ir a la API](https://ada-rsystem.onrender.com)
  
 ## Sistema de Recomendación
 El desarrollo del Sistema de Recomendación consistió en sugerir películas o series a usuarios, donde dado un id de usuario y una película, nos diga si la recomienda o no para dicho usuario. Con este proposito se seleccionó el algoritmo de SVD (Singular Value Decomposition) para entrenar el modelo.
