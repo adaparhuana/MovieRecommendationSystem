@@ -106,7 +106,6 @@ El desarrollo del Sistema de Recomendación consistió en sugerir películas o s
 
 ## Stack tecnológico
 + Python
-+ Scikit-learn
 + FastAPI
 + Render
 + Hugging Face
