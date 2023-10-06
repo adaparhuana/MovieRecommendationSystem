@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Movie recommendation</title>
+        <style>
+            body {
+                background-color: black; /* fondo negro */
+                text-align: center;
+                position: relative;
+                margin-bottom: 100px; /* Asegura que los botones no cubran otros contenidos */
+            }
+            img {
+                position: absolute;
+                bottom: 0;
+                right: 50%;
+                transform: translate(-50%);
+            }
+            .big-img {
+                width: 50%;
+            }
+            .center-img {
+                position: absolute;
+                top: 700%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+            .btn-container {
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+                background-color: #000;
+                padding: 20px;
+            }
+            .btn {
+                padding: 10px 18px;
+                font-weight: bold;
+                font-size: 18px;
+                color: white;
+                background-color: #1D3052; /* Azul claro */
+                border: none;
+                border-radius: 5px;
+                margin: 25px;
+            }
+            .btn:hover {
+                background-color: #15233B; /* Azul oscuro */
+                cursor: pointer;
+            }
+            .logo-img {
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                height: 50px;
+            }
+            .title {
+                font-size: 24px;
+                font-weight: bold;
+                margin: 0 auto;
+                color: white;
+                text-align:center;
+            }
+            footer {
+                position: fixed;
+                bottom: 0;
+                width: 10%;
+                background-color: black;
+                color: #fff;
+                padding: 6px;
+                font-size: 10px;
+                text-align: center;
+            }
+            body {
+                background-image: url("https://i.ibb.co/1XMSL1Y/movie.png");
+                background-repeat: no-repeat;
+                background-size: 70%;
+                background-position: center 80px;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <img class="logo-img" src="https://i.ibb.co/FWsHJcZ/Henry.png" alt="Logo de Google">
+        </div>
+        ---
+        <h1 class="title">¡Bienvenid@! </h1>
+        <h2 class="title">Consulte su película favorita en la plataforma de su preferencia </h2>
+        ---
+        <div class="btn-container">
+            <form>
+                <button class="btn" formaction="/boton">Plataformas streaming </button>
+            </form>
+        </div>
+        <footer>
+            Ada Parhuana - Derechos reservados
+            <p>PI N°1 Henry Labs 2023</p>
+        </footer>            
+    </body>
+    </html>
+  

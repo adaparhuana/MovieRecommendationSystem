@@ -1,0 +1,5 @@
+fastapi
+pandas
+Jinja2
+uvicorn
+
